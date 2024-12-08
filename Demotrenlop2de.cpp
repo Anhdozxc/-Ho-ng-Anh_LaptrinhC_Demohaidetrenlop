@@ -178,7 +178,7 @@ int main() {
                 }
                 break;
                 
-			case 9: // Sap xep mang tang dan (sap xep chen)
+	    case 9: // Sap xep mang tang dan (sap xep chen)
                 for (i = 1; i < n; i++) {
                     temp = arr[i];
                     j = i - 1;
@@ -212,7 +212,7 @@ int main() {
                 printf("\n");
                 break;
                 
-			case 11: // Tim kiem phan tu (Tim kiem nhi phan)
+            case 11: // Tim kiem phan tu (Tim kiem nhi phan)
                 {
                     int key, low = 0, high = n - 1, mid, found = 0;
                     printf("Nhap gia tri can tim: ");
@@ -323,4 +323,7 @@ int main() {
 
     return 0;
 }
+
+
+
 
